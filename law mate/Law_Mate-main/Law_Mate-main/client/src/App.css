@@ -1,0 +1,73 @@
+/* Global overrides for Bootstrap to match LawMate Design System */
+
+/* ── Global font size & color lift ── */
+*, *::before, *::after { box-sizing: border-box; }
+
+/* All text inside the app is darker and larger */
+.container, .container-fluid, main, .card, .modal, .offcanvas,
+.list-group, .table, .nav, .navbar, .form-control, .form-select,
+.btn, .badge, .alert {
+  font-size: 0.9375rem !important; /* 16px equivalent at 17px base */
+  color: #0F172A;
+}
+
+/* Labels, secondary text stay readable */
+.text-muted  { color: #4B5563 !important; }
+.small, small { font-size: 0.875rem !important; color: #374151; }
+.form-label   { font-size: 0.9rem !important; font-weight: 600 !important; color: #1E293B !important; }
+.form-text    { font-size: 0.825rem !important; color: #4B5563 !important; }
+
+/* Table text */
+.table th { font-size: 0.875rem !important; font-weight: 700 !important; color: #1E293B !important; }
+.table td { font-size: 0.9rem   !important; color: #1E293B !important; }
+
+/* Nav items */
+.nav-link { font-size: 0.9rem !important; font-weight: 500 !important; }
+
+/* Override Bootstrap primary color */
+.btn-primary { background-color: #1E3A8A !important; border-color: #1E3A8A !important; }
+.btn-primary:hover { background-color: #1d4ed8 !important; border-color: #1d4ed8 !important; }
+.btn-outline-primary { color: #1E3A8A !important; border-color: #1E3A8A !important; }
+.btn-outline-primary:hover { background-color: #1E3A8A !important; color: #fff !important; }
+.text-primary { color: #1E3A8A !important; }
+.bg-primary { background-color: #1E3A8A !important; }
+
+/* Smooth transitions globally */
+*, *::before, *::after { transition-timing-function: cubic-bezier(0.4,0,0.2,1); }
+
+/* Bootstrap card overrides */
+.card { border-radius: 16px !important; border-color: #E5E7EB !important; }
+.card-header { border-bottom-color: #E5E7EB !important; background: #fff !important; }
+
+/* Form controls */
+.form-control, .form-select {
+  border-radius: 10px !important;
+  border-color: #E5E7EB !important;
+  font-size: 0.875rem !important;
+}
+.form-control:focus, .form-select:focus {
+  border-color: #3B82F6 !important;
+  box-shadow: 0 0 0 3px rgba(59,130,246,0.12) !important;
+}
+
+/* Modal */
+.modal-content { border-radius: 20px !important; border: none !important; box-shadow: 0 20px 60px rgba(0,0,0,0.15) !important; }
+.modal-header { border-bottom-color: #E5E7EB !important; }
+.modal-footer { border-top-color: #E5E7EB !important; }
+
+/* Alert */
+.alert { border-radius: 12px !important; border: none !important; font-size: 0.875rem !important; }
+
+/* Badge */
+.badge { border-radius: 99px !important; font-weight: 600 !important; }
+
+/* Remove heavy shadows from Bootstrap */
+.shadow-sm { box-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04) !important; }
+.shadow    { box-shadow: 0 4px 16px rgba(0,0,0,0.07), 0 2px 6px rgba(0,0,0,0.04) !important; }
+.shadow-lg { box-shadow: 0 10px 32px rgba(0,0,0,0.08), 0 4px 12px rgba(0,0,0,0.04) !important; }
+
+/* Rounded pill buttons */
+.rounded-pill { border-radius: 99px !important; }
+
+/* Spinner */
+.spinner-border { border-width: 2px !important; }

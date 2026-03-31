@@ -1,0 +1,31 @@
+{
+  "name": "legal-search-server",
+  "version": "1.0.0",
+  "description": "Node.js backend for legal semantic search",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "node --watch index.js",
+    "test-db": "node scripts/testConnection.js",
+    "seed": "node scripts/migrateData.js",
+    "force-seed": "node scripts/forceSeed.js",
+    "seed-scenarios": "node scripts/seedScenarios.js",
+    "generate-embeddings": "node scripts/generateEmbeddings.js"
+  },
+  "dependencies": {
+    "@xenova/transformers": "^2.16.0",
+    "bcryptjs": "^3.0.3",
+    "compute-cosine-similarity": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.1.2",
+    "multer": "^2.0.2",
+    "nodemon": "^3.1.11",
+    "onnxruntime-node": "^1.24.3",
+    "pdf-parse": "^1.1.1"
+  }
+}

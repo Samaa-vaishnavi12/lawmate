@@ -1,0 +1,379 @@
+[
+  {
+    "id": "SC001",
+    "title": "Someone hit me on the road and I am injured",
+    "keywords": ["road accident", "hit", "injured", "vehicle", "rash driving", "car crash", "bike accident", "motor accident"],
+    "category": "Motor Vehicle & Assault",
+    "description": "A person is hit by a vehicle and sustains injuries due to rash or negligent driving by the driver.",
+    "applicable_laws": [
+      { "law": "ipc", "section": "279", "relevance": "Rash driving or riding on a public way — punishable with up to 6 months imprisonment or fine." },
+      { "law": "ipc", "section": "337", "relevance": "Causing hurt by act endangering life or personal safety of others — up to 6 months imprisonment." },
+      { "law": "ipc", "section": "338", "relevance": "Causing grievous hurt by endangering life — up to 2 years imprisonment." },
+      { "law": "ipc", "section": "304A", "relevance": "Causing death by negligence (if victim dies) — up to 2 years imprisonment." },
+      { "law": "mv_act", "section": "166", "relevance": "Application for compensation to Motor Accident Claims Tribunal (MACT)." },
+      { "law": "mv_act", "section": "140", "relevance": "Liability to pay compensation in certain cases on the principle of no fault." },
+      { "law": "mv_act", "section": "185", "relevance": "Driving by a drunken person or by a person under the influence of drugs." }
+    ],
+    "steps": ["File FIR at nearest police station under IPC 279/337/338", "Seek medical treatment immediately and preserve all records", "Apply for compensation before MACT under MV Act Section 166", "Contact insurance company of offending vehicle"],
+    "advice": "You can simultaneously file a criminal complaint under IPC and a compensation claim under the Motor Vehicles Act. Both proceedings are independent."
+  },
+  {
+    "id": "SC002",
+    "title": "My employer is not paying my salary",
+    "keywords": ["salary not paid", "unpaid wages", "employer", "wages withheld", "labour dispute", "payment not received"],
+    "category": "Labour & Employment",
+    "description": "An employer refuses to pay or delays salary/wages to an employee.",
+    "applicable_laws": [
+      { "law": "ipc", "section": "406", "relevance": "Criminal breach of trust — if employer misappropriates salary funds." },
+      { "law": "ipc", "section": "420", "relevance": "Cheating — if employer induced employee to work with no intention to pay." }
+    ],
+    "steps": ["Send a legal notice to the employer demanding dues within 15 days", "File complaint with Labour Commissioner of your district", "File application before Labour Court under Payment of Wages Act", "File criminal complaint under IPC 406 if criminal breach of trust"],
+    "advice": "Under the Payment of Wages Act 1936, wages must be paid before the 7th or 10th of every month. Delayed payment beyond this is an offence."
+  },
+  {
+    "id": "SC003",
+    "title": "I was cheated online / cyber fraud",
+    "keywords": ["online fraud", "cyber crime", "cheated", "money transferred", "fake website", "UPI fraud", "phishing", "OTP fraud", "scam"],
+    "category": "Cyber Crime & Fraud",
+    "description": "A person is defrauded online through fake websites, UPI fraud, phishing, OTP sharing, or false promises.",
+    "applicable_laws": [
+      { "law": "ipc", "section": "420", "relevance": "Cheating and dishonestly inducing delivery of property — up to 7 years imprisonment." },
+      { "law": "ipc", "section": "406", "relevance": "Criminal breach of trust — up to 3 years imprisonment." },
+      { "law": "ipc", "section": "468", "relevance": "Forgery for purpose of cheating — up to 7 years imprisonment." },
+      { "law": "ipc", "section": "471", "relevance": "Using as genuine a forged document." },
+      { "law": "ipc", "section": "66C", "relevance": "Identity theft under IT Act — fraudulent use of electronic signature, password or unique identification." },
+      { "law": "ipc", "section": "66D", "relevance": "Cheating by personation using computer resource — up to 3 years imprisonment." }
+    ],
+    "steps": ["Report immediately at cybercrime.gov.in or call 1930 (National Cyber Helpline)", "File FIR at local police station cyber cell", "Inform your bank immediately to freeze/reverse the transaction", "Preserve all evidence: screenshots, transaction IDs, chat logs"],
+    "advice": "Report within 24 hours for best chance of transaction reversal. The 1930 helpline can coordinate with banks to freeze fraudulent accounts."
+  },
+  {
+    "id": "SC004",
+    "title": "My husband is beating me / domestic violence",
+    "keywords": ["domestic violence", "husband beating", "wife beating", "physical abuse", "marital violence", "assault by spouse", "cruelty by husband"],
+    "category": "Domestic Violence & Family",
+    "description": "A woman is subjected to physical, mental, sexual or economic abuse by husband or in-laws.",
+    "applicable_laws": [
+      { "law": "ipc", "section": "498A", "relevance": "Husband or relative of husband of a woman subjecting her to cruelty — up to 3 years imprisonment." },
+      { "law": "ipc", "section": "304B", "relevance": "Dowry death — if woman dies within 7 years of marriage due to cruelty." },
+      { "law": "ipc", "section": "323", "relevance": "Voluntarily causing hurt — up to 1 year imprisonment." },
+      { "law": "ipc", "section": "354", "relevance": "Assault or criminal force to woman with intent to outrage her modesty." },
+      { "law": "ipc", "section": "506", "relevance": "Criminal intimidation — threatening the woman." }
+    ],
+    "steps": ["Call 181 (Women Helpline) or 100 (Police) immediately", "Go to nearest police station and file FIR under IPC 498A", "Approach Protection Officer under Protection of Women from Domestic Violence Act 2005", "Apply for protection order, residence order, and monetary relief before Magistrate"],
+    "advice": "Under the Protection of Women from Domestic Violence Act 2005, the woman has the right to reside in the shared household and seek protection, maintenance, and custody orders."
+  },
+  {
+    "id": "SC005",
+    "title": "Police arrested me without reason / illegal arrest",
+    "keywords": ["arrested", "illegal arrest", "police detained", "no warrant", "wrongful detention", "custody", "police brutality"],
+    "category": "Arrest & Detention Rights",
+    "description": "A person is arrested or detained by police without valid grounds, warrant, or explanation of reasons.",
+    "applicable_laws": [
+      { "law": "crpc", "section": "41", "relevance": "When police may arrest without warrant — strict conditions apply, cognizable offence must be involved." },
+      { "law": "crpc", "section": "50", "relevance": "Person arrested must be informed of grounds of arrest and right to bail." },
+      { "law": "crpc", "section": "56", "relevance": "Person arrested without warrant to be produced before Magistrate without delay." },
+      { "law": "crpc", "section": "57", "relevance": "Person cannot be detained in custody for more than 24 hours without Magistrate's order." },
+      { "law": "crpc", "section": "167", "relevance": "Procedure when investigation cannot be completed in 24 hours — bail default rights." },
+      { "law": "ipc", "section": "342", "relevance": "Wrongful confinement — applicable to police if arrest is unlawful." }
+    ],
+    "steps": ["Immediately ask police to state the grounds of arrest (your right under Article 22)", "Demand to inform a family member or lawyer of your arrest", "Contact a lawyer immediately — you have the right to legal representation", "File habeas corpus petition before High Court if unlawfully detained", "File complaint against police officers with SP or State Human Rights Commission"],
+    "advice": "Under Article 22 of the Constitution and CrPC Section 50, you must be told why you are being arrested. You cannot be held beyond 24 hours without a Magistrate's remand order."
+  },
+  {
+    "id": "SC006",
+    "title": "My land or property has been grabbed",
+    "keywords": ["land grabbed", "property encroachment", "illegal possession", "property dispute", "land dispute", "encroachment", "property seized"],
+    "category": "Property & Land Disputes",
+    "description": "Someone illegally takes possession of land or property belonging to another person.",
+    "applicable_laws": [
+      { "law": "ipc", "section": "441", "relevance": "Criminal trespass — entering property with intent to intimidate or commit offence." },
+      { "law": "ipc", "section": "447", "relevance": "Punishment for criminal trespass — up to 3 months imprisonment." },
+      { "law": "ipc", "section": "448", "relevance": "Punishment for house trespass — up to 1 year imprisonment." },
+      { "law": "ipc", "section": "425", "relevance": "Mischief — damaging or destroying property." },
+      { "law": "ipc", "section": "503", "relevance": "Criminal intimidation — threatening property owner." },
+      { "law": "cpc", "section": "6", "relevance": "Jurisdiction of civil courts to try property disputes." }
+    ],
+    "steps": ["File FIR at police station under IPC 441/447", "File civil suit for declaration and injunction before Civil Court", "Apply for urgent interim injunction to prevent further encroachment", "Approach Revenue Department (Tahsildar) for land record correction", "File complaint with District Collector if government land is involved"],
+    "advice": "Keep all original title documents, sale deeds, and tax receipts safe. A civil suit for permanent injunction combined with a criminal complaint is the most effective approach."
+  },
+  {
+    "id": "SC007",
+    "title": "I was sexually harassed at workplace",
+    "keywords": ["sexual harassment", "workplace harassment", "POSH", "office harassment", "boss harassed", "inappropriate touch", "unwanted advances"],
+    "category": "Sexual Harassment",
+    "description": "A woman faces sexual harassment, unwanted advances, or hostile work environment at her workplace.",
+    "applicable_laws": [
+      { "law": "ipc", "section": "354A", "relevance": "Sexual harassment — making sexually coloured remarks, demanding sexual favours — up to 3 years." },
+      { "law": "ipc", "section": "354", "relevance": "Assault or criminal force to outrage modesty of a woman." },
+      { "law": "ipc", "section": "509", "relevance": "Word, gesture or act intended to insult the modesty of a woman." },
+      { "law": "ipc", "section": "354C", "relevance": "Voyeurism — watching or capturing image of woman in private act." },
+      { "law": "ipc", "section": "354D", "relevance": "Stalking — repeatedly following or contacting a woman despite her disinterest." }
+    ],
+    "steps": ["File complaint with Internal Complaints Committee (ICC) of your organisation within 3 months", "If no ICC exists, file with Local Complaints Committee (LCC) at District level", "File FIR at police station under IPC 354A", "Approach Labour Commissioner if employer fails to constitute ICC"],
+    "advice": "Under the POSH Act 2013, every organisation with 10+ employees must have an Internal Complaints Committee. The employer is liable if they fail to act on your complaint."
+  },
+  {
+    "id": "SC008",
+    "title": "Someone is blackmailing me or threatening me",
+    "keywords": ["blackmail", "threat", "extortion", "threatening", "intimidation", "menace", "money demand with threat"],
+    "category": "Extortion & Threats",
+    "description": "A person demands money, valuables, or favours by threatening harm, exposure of secrets, or violence.",
+    "applicable_laws": [
+      { "law": "ipc", "section": "383", "relevance": "Extortion — putting someone in fear of injury to extort property — up to 3 years." },
+      { "law": "ipc", "section": "384", "relevance": "Punishment for extortion — imprisonment up to 3 years or fine or both." },
+      { "law": "ipc", "section": "385", "relevance": "Putting person in fear of injury in order to commit extortion." },
+      { "law": "ipc", "section": "386", "relevance": "Extortion by putting a person in fear of death or grievous hurt — up to 10 years." },
+      { "law": "ipc", "section": "503", "relevance": "Criminal intimidation — threatening to injure person, reputation, or property." },
+      { "law": "ipc", "section": "506", "relevance": "Punishment for criminal intimidation — up to 2 years imprisonment." },
+      { "law": "ipc", "section": "507", "relevance": "Criminal intimidation by anonymous communication." }
+    ],
+    "steps": ["Do not pay the blackmailer — it encourages further demands", "Preserve all evidence: messages, call recordings, emails", "File FIR immediately at police station under IPC 383/506", "For online blackmail, report to cybercrime.gov.in", "Seek anticipatory bail if you fear counter-false complaint"],
+    "advice": "Do not comply with demands. Every payment emboldens the blackmailer. Police can set up sting operations to catch the offender red-handed."
+  },
+  {
+    "id": "SC009",
+    "title": "Someone is spreading false information about me",
+    "keywords": ["defamation", "false accusation", "rumour", "fake news", "reputation damage", "false statement", "slander", "libel"],
+    "category": "Defamation",
+    "description": "A person makes or publishes false statements damaging the reputation of another person.",
+    "applicable_laws": [
+      { "law": "ipc", "section": "499", "relevance": "Defamation — making or publishing imputation intending to harm reputation of person." },
+      { "law": "ipc", "section": "500", "relevance": "Punishment for defamation — simple imprisonment up to 2 years or fine or both." },
+      { "law": "ipc", "section": "501", "relevance": "Printing or engraving matter known to be defamatory — up to 2 years." },
+      { "law": "ipc", "section": "502", "relevance": "Sale of printed or engraved substance containing defamatory matter." }
+    ],
+    "steps": ["Send a legal notice demanding apology and removal of defamatory content", "File criminal complaint under IPC 499/500 before Magistrate", "File civil suit for damages before Civil Court", "For online defamation, report to cybercrime portal and request platform takedown"],
+    "advice": "Defamation is both a civil wrong and a criminal offence in India. You can seek both criminal punishment and monetary compensation simultaneously."
+  },
+  {
+    "id": "SC010",
+    "title": "Husband demands dowry or in-laws harass for dowry",
+    "keywords": ["dowry", "dowry demand", "harassment for dowry", "in-laws harassment", "dowry death", "bride burning"],
+    "category": "Dowry & Matrimonial",
+    "description": "Husband or in-laws demand dowry or harass a woman in connection with demands for property or valuables.",
+    "applicable_laws": [
+      { "law": "ipc", "section": "498A", "relevance": "Husband or relative subjecting woman to cruelty — includes dowry demands — up to 3 years." },
+      { "law": "ipc", "section": "304B", "relevance": "Dowry death within 7 years of marriage due to cruelty — minimum 7 years imprisonment." },
+      { "law": "ipc", "section": "406", "relevance": "Criminal breach of trust — for misappropriation of stridhan (woman's property)." }
+    ],
+    "steps": ["File FIR under IPC 498A at nearest police station", "File complaint under Dowry Prohibition Act 1961 with Dowry Prohibition Officer", "Approach District Women Protection Officer", "File application for return of stridhan (jewellery, gifts) before Family Court"],
+    "advice": "Taking or giving dowry is an offence under the Dowry Prohibition Act 1961. All gifts given at marriage are the woman's stridhan and must be returned on demand."
+  },
+  {
+    "id": "SC011",
+    "title": "Bank refused to give my money or froze my account",
+    "keywords": ["bank frozen", "account frozen", "bank refused", "loan fraud", "bank dispute", "account blocked"],
+    "category": "Banking & Finance",
+    "description": "A bank wrongfully freezes an account, refuses withdrawal, or fails to follow proper procedures.",
+    "applicable_laws": [
+      { "law": "ipc", "section": "405", "relevance": "Criminal breach of trust — if bank misappropriates deposited funds." },
+      { "law": "ipc", "section": "420", "relevance": "Cheating — if bank fraudulently induces customer to part with money." }
+    ],
+    "steps": ["Send written complaint to Branch Manager and Regional Manager", "File complaint with Banking Ombudsman (free service by RBI)", "File consumer complaint before Consumer Forum (free for claims under 1 crore)", "Approach RBI Grievance Redressal Portal: rbi.org.in", "File civil suit for recovery if large amount is involved"],
+    "advice": "Banking Ombudsman can resolve disputes within 30 days free of cost. Consumer courts can award compensation for deficiency in banking service."
+  },
+  {
+    "id": "SC012",
+    "title": "Someone murdered a person in my family",
+    "keywords": ["murder", "killed", "homicide", "culpable homicide", "death", "killed my relative", "assassination"],
+    "category": "Homicide & Murder",
+    "description": "A person is killed intentionally or as a result of unlawful acts by another.",
+    "applicable_laws": [
+      { "law": "ipc", "section": "302", "relevance": "Punishment for murder — death penalty or imprisonment for life, and fine." },
+      { "law": "ipc", "section": "300", "relevance": "Defines murder — culpable homicide is murder when done with intent to cause death." },
+      { "law": "ipc", "section": "304", "relevance": "Culpable homicide not amounting to murder — up to 10 years or life imprisonment." },
+      { "law": "ipc", "section": "307", "relevance": "Attempt to murder — up to 10 years or life imprisonment." },
+      { "law": "crpc", "section": "154", "relevance": "First Information Report — FIR to be filed immediately." },
+      { "law": "crpc", "section": "174", "relevance": "Police to enquire and report on suicide or suspicious death." }
+    ],
+    "steps": ["File FIR immediately at police station — murder is a cognizable offence, police must register", "Demand immediate arrest of accused and police protection for family", "Ensure post-mortem is conducted and obtain a copy of PM report", "Engage a lawyer to monitor the investigation and appear in court", "Apply for compensation under victim compensation scheme"],
+    "advice": "Murder is a cognizable, non-bailable offence. Police are duty-bound to register FIR immediately. If police refuse, file a complaint directly before the Magistrate."
+  },
+  {
+    "id": "SC013",
+    "title": "I was raped or sexually assaulted",
+    "keywords": ["rape", "sexual assault", "molested", "outraged modesty", "POCSO", "sexual violence", "gang rape"],
+    "category": "Sexual Violence",
+    "description": "A person (predominantly women and children) is subjected to rape, sexual assault, or molestation.",
+    "applicable_laws": [
+      { "law": "ipc", "section": "376", "relevance": "Rape — minimum 10 years rigorous imprisonment, extendable to life or death in aggravated cases." },
+      { "law": "ipc", "section": "376A", "relevance": "Rape causing death or persistent vegetative state — minimum 20 years to death." },
+      { "law": "ipc", "section": "376D", "relevance": "Gang rape — minimum 20 years rigorous imprisonment to life." },
+      { "law": "ipc", "section": "354", "relevance": "Assault or criminal force to woman with intent to outrage her modesty." },
+      { "law": "ipc", "section": "354B", "relevance": "Assault or use of criminal force to woman with intent to disrobe — minimum 3 years." }
+    ],
+    "steps": ["Call 112 (Police) or 181 (Women Helpline) immediately", "Go to government hospital for medical examination within 24 hours — crucial evidence", "File FIR at any police station — police cannot refuse to register rape FIR", "You can file FIR at any station regardless of where incident occurred", "Victim's identity is protected by law — cannot be disclosed publicly"],
+    "advice": "Under Section 161 CrPC, victim's statement can be recorded by female officer. Free legal aid is available. Medical examination is free at government hospitals."
+  },
+  {
+    "id": "SC014",
+    "title": "Child is being abused or exploited",
+    "keywords": ["child abuse", "child exploitation", "POCSO", "minor abuse", "child labour", "child trafficking", "child molestation"],
+    "category": "Child Protection",
+    "description": "A child (below 18 years) is subjected to physical, sexual, or emotional abuse, labour, or trafficking.",
+    "applicable_laws": [
+      { "law": "ipc", "section": "376AB", "relevance": "Rape of woman under 12 years — minimum 20 years to death penalty." },
+      { "law": "ipc", "section": "363", "relevance": "Kidnapping — up to 7 years imprisonment." },
+      { "law": "ipc", "section": "366A", "relevance": "Procuration of minor girl for exploitation — up to 10 years." },
+      { "law": "ipc", "section": "374", "relevance": "Unlawful compulsory labour — up to 1 year imprisonment." }
+    ],
+    "steps": ["Call Childline 1098 — 24/7 free helpline for children in distress", "File FIR immediately — POCSO offences are cognizable", "Inform Child Welfare Committee (CWC) of the district", "Statement of child victim recorded by Special Juvenile Police Unit (SJPU)", "Child victim entitled to free legal aid and compensation"],
+    "advice": "Under POCSO Act 2012, even attempting, abetting or conspiring sexual offences against children is punishable. Schools and institutions must report child abuse."
+  },
+  {
+    "id": "SC015",
+    "title": "Consumer product is defective or service is poor",
+    "keywords": ["defective product", "consumer complaint", "poor service", "refund denied", "faulty goods", "consumer rights", "warranty claim"],
+    "category": "Consumer Rights",
+    "description": "A consumer receives defective goods or poor service and seeks remedy against seller or service provider.",
+    "applicable_laws": [
+      { "law": "ipc", "section": "420", "relevance": "Cheating by misrepresenting product quality — up to 7 years imprisonment." }
+    ],
+    "steps": ["Send written complaint to seller/company with 15 days notice", "File complaint before District Consumer Disputes Redressal Commission (claims up to 1 crore)", "File before State Consumer Commission (1 crore to 10 crore)", "File before National Consumer Commission (above 10 crore)", "File online at edaakhil.nic.in — free and easy consumer complaint portal"],
+    "advice": "Consumer Forum can award refund, replacement, compensation, and litigation costs. Filing is free for claims under Rs 5 lakh. Average disposal time is 90-150 days."
+  },
+  {
+    "id": "SC016",
+    "title": "Someone wrote a bad cheque that bounced",
+    "keywords": ["cheque bounce", "dishonoured cheque", "NI act", "bounced cheque", "cheque returned", "cheque fraud"],
+    "category": "Cheque Bounce & NI Act",
+    "description": "A cheque issued to a person is dishonoured by the bank due to insufficient funds or other reasons.",
+    "applicable_laws": [
+      { "law": "nia", "section": "138", "relevance": "Dishonour of cheque for insufficiency of funds — up to 2 years imprisonment or twice the cheque amount or both." },
+      { "law": "nia", "section": "139", "relevance": "Presumption in favour of holder — cheque presumed to be for discharge of debt." },
+      { "law": "nia", "section": "141", "relevance": "Offences by companies — directors and officers liable if cheque issued on behalf of company." },
+      { "law": "nia", "section": "142", "relevance": "Cognizance of offences — complaint must be filed within 30 days of cause of action." },
+      { "law": "ipc", "section": "420", "relevance": "Cheating — if intention to defraud is proved at time of issuing cheque." }
+    ],
+    "steps": ["Obtain bank memo showing cheque dishonour", "Send legal demand notice within 30 days of dishonour via registered post", "If payment not received within 15 days of notice, file complaint before Magistrate within 30 days", "File case under Section 138 NI Act in court having jurisdiction", "Court can award double the cheque amount as compensation"],
+    "advice": "You must send a legal demand notice within 30 days and file case within 30 days after that. Time limits are strict — missing them bars the case."
+  },
+  {
+    "id": "SC017",
+    "title": "I am not getting maintenance from my husband after divorce",
+    "keywords": ["maintenance", "alimony", "husband not paying", "divorce maintenance", "interim maintenance", "wife maintenance"],
+    "category": "Family & Matrimonial",
+    "description": "After separation or divorce, husband refuses to pay court-ordered or legally required maintenance to wife and children.",
+    "applicable_laws": [
+      { "law": "crpc", "section": "125", "relevance": "Order for maintenance of wives, children and parents — Magistrate can order monthly allowance." },
+      { "law": "hma", "section": "24", "relevance": "Maintenance pendente lite and expenses of proceedings — interim maintenance during divorce proceedings." },
+      { "law": "hma", "section": "25", "relevance": "Permanent alimony and maintenance — court can order lump sum or monthly payment." }
+    ],
+    "steps": ["File application under CrPC Section 125 before Family Court or Magistrate", "Apply for interim maintenance under HMA Section 24 during pending case", "If already ordered, file execution petition for recovery of arrears", "Court can attach salary, property, or bank accounts for recovery"],
+    "advice": "Under CrPC Section 125, maintenance can be ordered for wife, minor children, and parents. Court can grant interim maintenance within 60 days of filing application."
+  },
+  {
+    "id": "SC018",
+    "title": "Landlord is not returning my security deposit",
+    "keywords": ["security deposit", "landlord dispute", "rent dispute", "landlord refusing", "deposit not returned", "tenant rights"],
+    "category": "Tenancy & Property",
+    "description": "A landlord refuses to return the security deposit to tenant after vacation of premises without valid reason.",
+    "applicable_laws": [
+      { "law": "ipc", "section": "403", "relevance": "Dishonest misappropriation of property — up to 2 years imprisonment." },
+      { "law": "ipc", "section": "405", "relevance": "Criminal breach of trust — if landlord entrusted with deposit misappropriates it." },
+      { "law": "ipc", "section": "406", "relevance": "Punishment for criminal breach of trust — up to 3 years imprisonment." }
+    ],
+    "steps": ["Send legal demand notice to landlord with 15 days deadline", "File complaint with Rent Controller or Rent Tribunal in your city", "File consumer complaint if deposit was given as part of service agreement", "File civil suit for recovery of deposit with interest", "File criminal complaint under IPC 406 for criminal breach of trust"],
+    "advice": "Most states have Rent Control Acts that protect tenants. Tamil Nadu, Maharashtra, Delhi all have specific provisions. Keep receipt of deposit payment as evidence."
+  },
+  {
+    "id": "SC019",
+    "title": "I am being stalked or followed by someone",
+    "keywords": ["stalking", "following", "harassment", "someone following me", "online stalking", "cyber stalking", "monitoring without consent"],
+    "category": "Stalking & Harassment",
+    "description": "A person is repeatedly followed, monitored, or contacted against their will by another person.",
+    "applicable_laws": [
+      { "law": "ipc", "section": "354D", "relevance": "Stalking — following a woman or monitoring her use of internet/email — up to 3 years first offence, 5 years subsequent." },
+      { "law": "ipc", "section": "503", "relevance": "Criminal intimidation — threatening the victim to instil fear." },
+      { "law": "ipc", "section": "509", "relevance": "Word, gesture or act intended to insult modesty of a woman." }
+    ],
+    "steps": ["Document all instances of stalking with dates, times, and evidence", "File FIR at police station under IPC 354D", "Apply for protection order before Magistrate", "Block the person on all social media and communication platforms", "Inform your family, friends, and workplace about the situation"],
+    "advice": "Stalking is a cognizable offence since 2013. Police must register FIR. Repeat offences carry 5-year imprisonment. Do not negotiate with the stalker."
+  },
+  {
+    "id": "SC020",
+    "title": "Someone took a loan in my name without my knowledge",
+    "keywords": ["identity theft", "loan fraud", "forged signature", "loan without consent", "CIBIL fraud", "fake loan"],
+    "category": "Identity Theft & Fraud",
+    "description": "A person discovers that someone has fraudulently taken a loan using their identity documents without consent.",
+    "applicable_laws": [
+      { "law": "ipc", "section": "420", "relevance": "Cheating — inducing bank to deliver money through fraudulent means — up to 7 years." },
+      { "law": "ipc", "section": "468", "relevance": "Forgery for purpose of cheating — up to 7 years imprisonment." },
+      { "law": "ipc", "section": "471", "relevance": "Using forged document as genuine." },
+      { "law": "ipc", "section": "467", "relevance": "Forgery of valuable security or will — up to life imprisonment." }
+    ],
+    "steps": ["File FIR at cyber crime cell immediately under IPC 468/471/420", "Report to RBI Banking Ombudsman", "Send dispute letter to the lending bank and CIBIL/Experian to flag fraud", "File complaint with RBI and SEBI if financial institution is involved", "Apply for interim stay on loan recovery proceedings"],
+    "advice": "You are not liable for a loan taken fraudulently in your name. Act quickly — file FIR, inform CIBIL, and get the fraud loan flagged before it affects your credit score."
+  },
+  {
+    "id": "SC021",
+    "title": "Neighbour is causing noise pollution or nuisance",
+    "keywords": ["noise pollution", "neighbour dispute", "nuisance", "loud music", "construction noise", "neighbour problem"],
+    "category": "Nuisance & Public Order",
+    "description": "A neighbour or nearby establishment creates excessive noise or public nuisance affecting quality of life.",
+    "applicable_laws": [
+      { "law": "ipc", "section": "268", "relevance": "Public nuisance — act or omission causing common injury to public — up to 6 months." },
+      { "law": "ipc", "section": "290", "relevance": "Punishment for public nuisance in cases not otherwise provided for — fine up to Rs 200." },
+      { "law": "ipc", "section": "291", "relevance": "Continuation of nuisance after injunction to discontinue — up to 6 months." }
+    ],
+    "steps": ["File complaint at local police station under IPC 268/290", "File complaint with local municipality or panchayat", "File complaint under Noise Pollution (Regulation and Control) Rules 2000 with TNPCB/SPCB", "File civil suit for permanent injunction to stop the nuisance", "Apply to District Magistrate for action under CrPC Section 133"],
+    "advice": "Under CrPC Section 133, a Magistrate can pass a conditional order to remove a public nuisance immediately. This is a quick remedy without going to civil court."
+  },
+  {
+    "id": "SC022",
+    "title": "My passport or visa was rejected unfairly",
+    "keywords": ["passport rejected", "visa denied", "passport problem", "travel document", "passport renewal"],
+    "category": "Passport & Travel",
+    "description": "A person's passport application or renewal is rejected or visa is denied without proper explanation.",
+    "applicable_laws": [
+      { "law": "ipc", "section": "468", "relevance": "If documents were forged in connection with passport application." }
+    ],
+    "steps": ["File appeal against rejection before Passport Seva Kendra officer within 30 days", "File representation before Regional Passport Officer with supporting documents", "File writ petition before High Court if constitutional rights are violated", "Approach Ministry of External Affairs grievance portal: mea.india.gov.in"],
+    "advice": "Passport rejection must be communicated in writing with reasons. You have the right to appeal. If rejection is arbitrary, High Court can direct issuance through mandamus."
+  },
+  {
+    "id": "SC023",
+    "title": "Police is not registering my FIR",
+    "keywords": ["FIR not registered", "police not helping", "complaint refused", "police negligence", "FIR rejected"],
+    "category": "Police Complaint & FIR",
+    "description": "Police refuses to register an FIR despite the complainant reporting a cognizable offence.",
+    "applicable_laws": [
+      { "law": "crpc", "section": "154", "relevance": "Every information of cognizable offence MUST be recorded and copy given to informant — refusal is an offence." },
+      { "law": "crpc", "section": "156", "relevance": "Police officer's power to investigate cognizable case without Magistrate's order." },
+      { "law": "crpc", "section": "190", "relevance": "Cognizance of offences by Magistrate — complainant can approach Magistrate directly." },
+      { "law": "ipc", "section": "166A", "relevance": "Public servant disobeying law with intent to cause injury to any person — up to 2 years." }
+    ],
+    "steps": ["First approach the SHO (Station House Officer) and insist on FIR registration", "Send complaint by registered post to Superintendent of Police", "File complaint before the District Magistrate or Judicial Magistrate under CrPC 156(3)", "File complaint with State Police Complaints Authority", "File writ petition in High Court for direction to register FIR"],
+    "advice": "Supreme Court in Lalita Kumari vs Govt of UP held that police MUST mandatorily register FIR for cognizable offences. Refusal is punishable under IPC 166A."
+  },
+  {
+    "id": "SC024",
+    "title": "Someone is spreading religious or caste hatred",
+    "keywords": ["caste discrimination", "religious hatred", "communal", "casteism", "SC/ST atrocity", "untouchability", "hate speech"],
+    "category": "Caste & Communal Offences",
+    "description": "A person faces caste-based discrimination, religious hatred, or atrocity as a member of Scheduled Caste/Tribe.",
+    "applicable_laws": [
+      { "law": "ipc", "section": "153A", "relevance": "Promoting enmity between different groups on grounds of religion, race, etc. — up to 3 years." },
+      { "law": "ipc", "section": "295A", "relevance": "Deliberate acts intended to outrage religious feelings — up to 3 years." },
+      { "law": "ipc", "section": "505", "relevance": "Statements conducing to public mischief — up to 3 years." }
+    ],
+    "steps": ["File FIR under IPC 153A at nearest police station", "File complaint under SC/ST (Prevention of Atrocities) Act 1989 if victim is SC/ST", "Report to National Commission for Scheduled Castes: ncsc.nic.in", "File complaint with National Human Rights Commission: nhrc.nic.in"],
+    "advice": "Under SC/ST Atrocities Act, the offences are non-bailable and cognizable. There is a special court for speedy trial. Police cannot refuse to register FIR."
+  },
+  {
+    "id": "SC025",
+    "title": "My divorce is not going through or spouse refuses divorce",
+    "keywords": ["divorce", "separation", "contested divorce", "mutual divorce", "spouse refuses", "matrimonial dispute"],
+    "category": "Divorce & Matrimonial",
+    "description": "Parties to a marriage seek divorce but the other spouse refuses, or the divorce proceedings are stalled.",
+    "applicable_laws": [
+      { "law": "hma", "section": "13", "relevance": "Divorce — grounds include cruelty, desertion, adultery, conversion, unsound mind." },
+      { "law": "hma", "section": "13B", "relevance": "Divorce by mutual consent — both parties agree, live separately for 1 year." },
+      { "law": "hma", "section": "10", "relevance": "Judicial separation — court may grant separation instead of divorce." },
+      { "law": "hma", "section": "9", "relevance": "Restitution of conjugal rights — court may direct cohabitation." }
+    ],
+    "steps": ["File divorce petition before Family Court with grounds clearly stated", "Apply for interim maintenance under HMA 24 while case is pending", "Attempt mediation — courts may refer parties to Lok Adalat or mediation", "In mutual consent divorce under 13B, motion can be filed after 6 months cooling period", "Collect evidence of cruelty, desertion, adultery as applicable"],
+    "advice": "Supreme Court in various judgments has held that irretrievable breakdown of marriage can be a ground for divorce under Article 142. Family Court proceedings are in camera."
+  }
+]
