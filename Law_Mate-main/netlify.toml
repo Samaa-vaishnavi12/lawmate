@@ -1,12 +1,7 @@
 [build]
-  base    = "client"
-  command = "npm install --legacy-peer-deps && npm run build"
-  publish = "client/build"
-
-[build.environment]
-  DISABLE_ESLINT_PLUGIN   = "true"
-  ESLINT_NO_DEV_ERRORS    = "true"
-  GENERATE_SOURCEMAP      = "false"
+  base    = "static-deploy"
+  command = "echo 'static site - no build needed'"
+  publish = "static-deploy"
 
 [[redirects]]
   from   = "/*"
