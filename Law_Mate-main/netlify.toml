@@ -1,9 +1,0 @@
-[build]
-  base    = "static-deploy"
-  command = "echo 'static site - no build needed'"
-  publish = "static-deploy"
-
-[[redirects]]
-  from   = "/*"
-  to     = "/index.html"
-  status = 200

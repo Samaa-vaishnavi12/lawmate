@@ -1,5 +1,7 @@
 # Node modules
 node_modules/
+client/node_modules/
+server/node_modules/
 
 # Logs
 logs
@@ -9,15 +11,18 @@ npm-debug.log*
 # Environment variables
 .env
 .env.local
+.env.production
 
-# Vite/React build output
+# Build outputs
 dist/
 build/
+client/build/
 
 # IDEs
 .vscode/
 .idea/
 .DS_Store
 
-# Server data (optional, but embeddings might be large)
-# server/data/*/embeddings.json
+# Unused files
+client/vite.config.js.bak
+client/eslint.config.js.bak
