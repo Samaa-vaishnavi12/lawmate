@@ -8,10 +8,10 @@ logs
 *.log
 npm-debug.log*
 
-# Environment variables
-.env
+# Server secrets (never commit)
+server/.env
+server/.env.local
 .env.local
-.env.production
 
 # Build outputs
 dist/
@@ -22,7 +22,3 @@ client/build/
 .vscode/
 .idea/
 .DS_Store
-
-# Unused files
-client/vite.config.js.bak
-client/eslint.config.js.bak

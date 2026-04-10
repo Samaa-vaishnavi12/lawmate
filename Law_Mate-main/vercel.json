@@ -6,7 +6,7 @@
   "rewrites": [
     { "source": "/api/:path*", "destination": "/api/index" },
     { "source": "/search/:path*", "destination": "/api/index" },
-    { "source": "/((?!api|search).*)", "destination": "/client/build/index.html" }
+    { "source": "/(.*)", "destination": "/index.html" }
   ],
   "functions": {
     "api/index.js": {

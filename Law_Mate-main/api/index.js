@@ -23,7 +23,6 @@ const app = express();
 app.use(cors({ origin: true, credentials: true }));
 app.use(express.json({ limit: '10mb' }));
 
-// ── MongoDB (cached connection for serverless) ────────────────────────────────
 let isConnected = false;
 async function connectDB() {
     if (isConnected && mongoose.connection.readyState === 1) return;
@@ -36,7 +35,6 @@ async function connectDB() {
     isConnected = true;
 }
 
-// ── Routes ────────────────────────────────────────────────────────────────────
 app.use('/api/auth',      authRouter);
 app.use('/api/users',     userRouter);
 app.use('/api/fir',       firRouter);
@@ -49,12 +47,10 @@ app.use('/api/scenarios', scenarioRouter);
 app.use('/api/search',    protect, searchRouter);
 app.use('/search',        protect, searchRouter);
 
-app.get('/api',  (_, res) => res.json({ status: 'ok', message: '✅ Law Mate API is running' }));
-app.get('/',     (_, res) => res.json({ status: 'ok', message: '✅ Law Mate API is running' }));
+app.get('/api', (_, res) => res.json({ status: 'ok', message: '✅ Law Mate API is running' }));
 
 app.use(errorHandler);
 
-// ── Vercel serverless handler ─────────────────────────────────────────────────
 export default async function handler(req, res) {
     try {
         await connectDB();
